@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0
+}
+
+html {
+    height: 900px;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.822);
+
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+
+}
+
+.container {
+    height: 70%;
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 10px;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+
+}
+
+.container h3 {
+    text-align: center;
+    color: gray;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 70%
+}
+
+.content_img {
+    width: 46%;
+    object-fit: cover;
+    height: 80%;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.info {
+    width: 48%;
+    background-color: black
+}
+
+.btns {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+
+}
+
+.history_btn,
+.visions_btn,
+.goals_btn {
+    width: 33.3%;
+    height: 100%;
+    background-color: gray;
+    color: white;
+    transition: all 0.5s linear;
+    outline: none;
+    cursor: pointer;
+    border: none
+}
+
+.history_btn:hover,
+.visions_btn:hover,
+.goals_btn:hover {
+    background-color: black;
+    color: blue
+}
+
+.active {
+    background-color: black;
+    color: white
+}
+
+.history {
+
+    padding-left: 20px;
+    color: white;
+
+}
+
+.history h3 {
+    text-align: left !important;
+    margin-bottom: 40px
+}
+
+.visions {
+    display: none;
+    color: white;
+
+    padding-left: 20px;
+}
+
+.visions h3 {
+    text-align: left
+}
+
+.goals h3 {
+    text-align: left
+}
+
+.goals {
+    display: none;
+    color: white;
+    padding-left: 20px;
+}
